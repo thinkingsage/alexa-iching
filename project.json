@@ -1,0 +1,8 @@
+{
+  "name": "alexa-iching",
+  "description": "An Alexa skill for referencing the I-Ching and requesting simple readings.",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::142221083342:role/alexa-iching_lambda_function",
+  "environment": {}
+}
