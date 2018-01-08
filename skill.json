@@ -3,14 +3,18 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "name": "Iching Oracle"
+          "name": "I-ching Oracle"
         }
       },
       "isAvailableWorldwide": true,
       "distributionCountries": []
     },
-    "apis": {
-      "custom": {}
+	"apis": {
+		"custom": {
+        	"endpoint": {
+          	"sourceDir": "functions/reference"
+        	}
+      	}
     },
     "manifestVersion": "1.0"
   }

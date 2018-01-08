@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "HexagramIntent",
+      "samples": [
+        "{Item}",
+        "Hexagram {Item}",
+	      "what is the meaning of Hexagram {Item}",
+	      "tell me about Hexagram {Item}",
+        "I want to know about Hexagram {Item}",
+      ],
+      "slots": [
+        {
+          "name": "Item",
+          "type": "LIST_OF_ITEMS",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "LIST_OF_ITEMS",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "64",
+            "synonyms": []
+          }
+        }
+        
+      ]
+    }
+  ]
+}
